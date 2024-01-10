@@ -94,11 +94,16 @@ math: true
 
 ## Process - Essential Resources
 
+<div style="font-size:25px">
+
 - **Register** contains data that may be needed by a process like instructions, storage addresses, or other data.
 
 - **Program counter** Also known as an instruction pointerIt keeps track of where a computer is in its program sequence.
 
 - **Stack**. A stack is a data structure that stores information about the active *subroutines* of a computer program. It is used as scratch space for the process. It is distinguished from *dynamically* allocated memory for the process that is known as the **heap**.
+
+</div>
+
 ![bg right:40% 160%](https://www.backblaze.com/blog/wp-content/uploads/2017/08/3.png)
 
 ---
