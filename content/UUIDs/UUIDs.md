@@ -47,11 +47,12 @@ $128=32 \cdot log_2(16)$
 
 - 128 bit numbers
 
-![h:300 center](https://arctype.com/blog/content/images/size/w1000/2021/01/Screen-Shot-2021-01-18-at-11.01.25-AM.png)
-
 <div align=center>
 
+![h:300 center](../../figures/uuid_example.png)
+
 UUID Version 1 
+
 </div> 
 
 --- 
@@ -86,18 +87,18 @@ There are 8 versions as of  23 June 2022
 
 - Created by Microsoft but standardised by the **Internet Engineering Task Force** (IETF) and the **International Telecommunication Union** (ITU), so that each user or thing can be uniquely identifiable. 
 -  **ITU-T X.667 | ISO/IEC 9834-8**​
-![bg right:50% 50% vertcial](https://miro.medium.com/v2/resize:fit:640/format:webp/1*eOxYCicU2O_DHk5CWJS9TQ.png)
+![bg right:50% 50% vertcial](../../figures/guuid.png)
 
-![bg right:50% 40% vertical](https://cdn.freebiesupply.com/logos/large/2x/itu-logo-png-transparent.png)
-![bg right:50% 40% vertical](https://www.ietf.org/media/images/ietf-logo.original.png)
+![bg right:50% 40% vertical](../../figures/ITU.png)
+![bg right:50% 40% vertical](../../figures/ietf.png)
     
 
 ---
 
 ## Where?
 ![bg right:80% 100% vertical](../../figures/uuid_fs.png)
-![bg right:80% 100% vertical](https://logo-marque.com/wp-content/uploads/2020/04/Minecraft-Symbole-650x366.jpg)
-![bg right:65% 100% vertical](https://www.volico.com/wp-content/uploads/2016/07/clustering-servers.jpg)
+![bg right:80% 100% vertical](../../figures/minecraft.jpg)
+![bg right:65% 100% vertical](../../figures/clustering-servers.jpg)
 
 <!-- minecraft usese Version 4-->
 ---
@@ -114,8 +115,8 @@ There are 8 versions as of  23 June 2022
 
 - $1,431,281,810,739,360km^3$
 
-![bg right:30% vertical ](https://starwalk.space/gallery/images/jupiter-guide/1140x641.jpg)
-![bg right:30%](https://media.npr.org/assets/img/2012/09/13/6855916100_7c475796f3_b-30181951c4cd30708afa145ce7ec026266caeaea-s800-c85.webp)
+![bg right:30% vertical ](../../figures/jupiter.jpg)
+![bg right:30%](../../figures/sand.png)
 
 
 <!--
@@ -177,7 +178,7 @@ Unix 01/01/1970
       - 19/01/1901 03:14:08
   
 ![bg right:40% 100%](../../figures/y2k.png)
-![bg right: 40% 100% vertical](https://www.explainxkcd.com/wiki/images/c/c1/y2k_and_2038_2x.png)
+![bg right: 40% 100% vertical](../../figures/y2k_and_2038_2x.png)
 
   <!--
 
@@ -237,7 +238,7 @@ $ date +"%s.%N" | awk -F "." '{print "(nano seconds = )", (($1*1000000000)+12219
 - namespace could be website, DNS information, plain text, etc
 - the namespace value is hashed using the `md5hash` alogrithm
 
-![](https://www.simplilearn.com/ice9/free_resources_article_thumb/md5_1-MD5_Algorithm.PNG)
+![](../../figures/md5_1-MD5_Algorithm.png)
 
 
 ---
@@ -245,14 +246,14 @@ $ date +"%s.%N" | awk -F "." '{print "(nano seconds = )", (($1*1000000000)+12219
 
 ## MD5 Algorithm
 
-![vertical](https://www.simplilearn.com/ice9/free_resources_article_thumb/md5_3-MD5_Algorithm.PNG)
-![](https://www.simplilearn.com/ice9/free_resources_article_thumb/md5_4.PNG)
+![vertical center](../../figures/md5_3-MD5_Algorithm.png)
+![center](../../figures/md5_4.png)
 
 ---
 
 ## MD5 Alogrithm
 
-![bg right:50% 100%](https://www.simplilearn.com/ice9/free_resources_article_thumb/md5chart.PNG)
+![bg right:50% 100%](../../figures/md5chart.png)
 
 - Round 1: (b AND c) OR ((NOT b) AND (d))
 
