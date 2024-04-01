@@ -121,6 +121,23 @@ $ chmod +x script.sh && ./script.sh
 
 --- 
 
+## Note of file permirwxrwxrwxsions
+
+- octet 0-7
+- `rwx`
+  - `r` = read = 4
+  - `w` = write = 2
+  - `x` = execute = 1
+- `rwxrwxrwx` 
+  - show us that three "groups" have permissions. 
+    - user, group and rest of the world
+
+- `d` =  directory
+- `.` = file in-situ of its directory
+- `l` = link to another location
+
+---
+
 ## Variables
 
 - Bash does not have a **type system**, `int`,`char`,`var`..,etc
