@@ -160,6 +160,7 @@ When talking about `stdin`, `stdout`, and `stderr` it is convenient to trot out 
 
 ![center](../../figures/lsRedirection.png)
 
+- `>>` means to append to the end of the file, whereas `>` means to overwrite the file.
 ---
 
 ## Redirecting `stdout` and `stderr` Pt1
