@@ -12,12 +12,18 @@ style: |
     table{
       font-size: 18 px;
     }
+    section::after {
+      content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+    }
+footer: COMP1712  | Computer Architectures and Operating Systems
 size: 16:9
 paginate: true
 _paginate: false
 marp: true
 math: true
 ---
+
+<!-- _footer: "[Download as a PDF](https://github.com/UniOfGreenwich/COMP1712-Lectures/raw/gh-pages/content/Bash_DataStreams/Bash_DataStreams.pdf)" -->
 
 # Bourne Again Shell Programming
 
